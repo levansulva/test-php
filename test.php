@@ -1,4 +1,5 @@
-<?php
 
-echo "hello world";
+<?php
+$output = shell_exec('whoami');
+echo "<pre>$output</pre>";
 ?>
